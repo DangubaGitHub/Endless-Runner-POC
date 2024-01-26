@@ -1,18 +1,48 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using Vector2 = System.Numerics.Vector2;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Header("Movement")]
+   
+    [SerializeField] float moveSpeed;
+   
+    
+    [Header("Jumping")]
+    
+    [SerializeField] float jumpForce;
+    [SerializeField] bool isGrounded;
+    [SerializeField] float isGroundedRadius;
+    [SerializeField] Transform feetPosition;
+    [SerializeField] LayerMask whatIsGround;
+    
+    
+    
+    public Rigidbody2D rb2d;
+
+    public static PlayerController instance;
+
+    private void Awake()
+    {
+        instance = this;
+        rb2d = GetComponent<Rigidbody2D>();
+    }
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        isGrounded = Physics2D.OverlapCircle(feetPosition.position, isGroundedRadius,whatIsGround);
+
+        if (isGrounded == true && Input.GetKeyDown(KeyCode.Space))
+        {
+            rb2d.velocity = Vector2.up * jumpForce;
+        }
     }
 }

@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using Vector2 = System.Numerics.Vector2;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,7 +13,7 @@ public class PlayerController : MonoBehaviour
     [Header("Jumping")]
     
     [SerializeField] float jumpForce;
-    [SerializeField] bool isGrounded;
+    public bool isGrounded;
     [SerializeField] float isGroundedRadius;
     [SerializeField] Transform feetPosition;
     [SerializeField] LayerMask whatIsGround;

@@ -104,7 +104,6 @@ public class PlayerController : MonoBehaviour
             {
                 Moving.SetActive(true);
                 sr.enabled = false;
-                Debug.Log("Collision Working");
             }
 
             if (!isGrounded)

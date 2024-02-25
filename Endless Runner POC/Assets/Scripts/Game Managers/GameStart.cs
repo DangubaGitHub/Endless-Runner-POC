@@ -6,7 +6,7 @@ public class GameStart : MonoBehaviour
 {
     void Start()
     {
-        PlayerController.instance.isStarting = true;
+        PlayerController.instance.isStarting = false;
     }
 
     void Update()

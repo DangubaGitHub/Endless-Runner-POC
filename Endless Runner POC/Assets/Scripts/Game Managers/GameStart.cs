@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class GameStart : MonoBehaviour
 {
+    [SerializeField] float gameStartTime;
+    
+    
     void Start()
     {
-        PlayerController.instance.isStarting = false;
+       
     }
 
     void Update()
     {
+        gameStartTime -= Time.deltaTime;
         
+        if (gameStartTime <= 0)
+        {
+            PlayerController.instance.isStarting = true;
+        }
     }
 }

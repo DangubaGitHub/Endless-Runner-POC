@@ -9,6 +9,7 @@ public class PlayerAnimations : MonoBehaviour
     
     const string MOVE = "anim_move";
     const string JUMP = "anim_jump";
+    const string IDLE = "anim_idle";
 
     
     public Animator anim;
@@ -25,7 +26,7 @@ public class PlayerAnimations : MonoBehaviour
 
     void Start()
     {
-        
+        ChangeAnimationState(IDLE);
     }
     
     void Update()

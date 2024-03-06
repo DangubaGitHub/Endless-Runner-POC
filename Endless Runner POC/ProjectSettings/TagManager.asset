@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - Pickup
+  - Destroyer
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - White Pixel
   - Black Pixel
   - Pickup
-  - 
+  - Destroyer
   - 
   - 
   - 

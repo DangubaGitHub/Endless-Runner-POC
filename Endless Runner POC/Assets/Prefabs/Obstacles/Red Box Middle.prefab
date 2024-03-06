@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6070031693835979748}
   - component: {fileID: 5975800645397100803}
   - component: {fileID: 2440246495641250678}
+  - component: {fileID: 2016780131978605901}
   m_Layer: 7
   m_Name: Red Box Middle
   m_TagString: Obstacle
@@ -96,7 +97,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8059629167792467926}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -161,3 +162,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2, y: 2.0782409}
   m_EdgeRadius: 0
+--- !u!114 &2016780131978605901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059629167792467926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb8d48fccab14b868a690d2027523bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

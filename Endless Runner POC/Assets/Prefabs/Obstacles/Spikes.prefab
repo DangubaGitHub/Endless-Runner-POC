@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 954302836494294466}
   - component: {fileID: 8157442884502909812}
   - component: {fileID: 2413376638353169764}
+  - component: {fileID: 5271116566093405697}
   m_Layer: 7
   m_Name: Spikes
   m_TagString: Obstacle
@@ -182,3 +183,15 @@ PolygonCollider2D:
       - {x: 1.7980595, y: -0.79805785}
       - {x: 1.7980595, y: 0.37581497}
   m_UseDelaunayMesh: 0
+--- !u!114 &5271116566093405697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6605609190280620098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb8d48fccab14b868a690d2027523bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3969763961916579677}
   - component: {fileID: 8505513927771819788}
   - component: {fileID: 7213447631322492431}
-  - component: {fileID: 5607105203047924896}
+  - component: {fileID: 8186103553483880026}
   m_Layer: 7
   m_Name: 5
   m_TagString: Obstacle
@@ -162,7 +162,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 3.392252}
   m_EdgeRadius: 0
---- !u!114 &5607105203047924896
+--- !u!114 &8186103553483880026
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1301756363741491620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5d8afcf6fd56479488a0bebdf2fcc25, type: 3}
+  m_Script: {fileID: 11500000, guid: 7eb8d48fccab14b868a690d2027523bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2543734710534527793
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 2013206739577371728}
   - component: {fileID: 4201369825317507228}
   - component: {fileID: 3582556310600891745}
-  - component: {fileID: 8190353770364787013}
+  - component: {fileID: 325037415889987920}
   m_Layer: 7
   m_Name: 5 (2)
   m_TagString: Obstacle
@@ -369,7 +369,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 3.392252}
   m_EdgeRadius: 0
---- !u!114 &8190353770364787013
+--- !u!114 &325037415889987920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -378,6 +378,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5425837112924012843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5d8afcf6fd56479488a0bebdf2fcc25, type: 3}
+  m_Script: {fileID: 11500000, guid: 7eb8d48fccab14b868a690d2027523bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

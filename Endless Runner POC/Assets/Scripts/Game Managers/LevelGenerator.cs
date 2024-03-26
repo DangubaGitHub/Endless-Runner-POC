@@ -9,7 +9,7 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
 {
-    private const float DistanceBetweenPlayerAndLevelSpawn = 75f;
+    private const float DistanceBetweenPlayerAndLevelSpawn = 50f;
 
     [SerializeField] private GameObject player;
     
